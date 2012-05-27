@@ -1,6 +1,6 @@
 ##Structurer.codaplugin
 
-A tiny clone from NetTuts+ Structurer App, enjoy!
+Totaly inspired from NetTuts+ Structurer App, enjoy!
 
 ##Example
 Create a file with something like this:
