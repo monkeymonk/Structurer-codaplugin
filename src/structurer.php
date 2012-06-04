@@ -46,14 +46,12 @@ function explodeTree($array, $delimiter = '_', $baseval = false){
 			
 			$url[$key] = $url[1];
 			unset($array[$key]);
-		} // ?????
+		}
 		
-		// Get parent parts and the current leaf
 		$parts = preg_split($splitRE, $key, -1, PREG_SPLIT_NO_EMPTY);
 		$leafPart = array_pop($parts);
  
 		// Build parent structure
-		// Might be slow for really deep and large structures
 		$parentArr = &$returnArr;
 		foreach($parts as $part){
 			if(!isset($parentArr[$part])){
