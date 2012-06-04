@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 // Structurer v0.1
-// by Stéphan Zych (mmonkeymonk.be)
+// by Stéphan Zych (monkeymonk.be)
 /*
 $input = <<<EOT
 css/
